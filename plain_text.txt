@@ -1,0 +1,1 @@
+tell application "Messages"	repeat 3 times		set myid to get id of first service		set theBuddy to buddy "+15555555555" of service id myid		send "Hi there" to theBuddy	end repeatend tell
